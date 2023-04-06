@@ -1,4 +1,22 @@
-header {
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.cabeçalho {
     background-color: #F5C20A;
     color: #1A1D1D;
+    display: flex;
+    justify-content: space-around;
+}
+
+.cabeçalho logo {
+    width: 25%;
+    height: 25%;
+}
+
+.cabeçalho-itens {
+    font-size: 36px;
+display: inline-block;
+padding-top: 20px;
 }
