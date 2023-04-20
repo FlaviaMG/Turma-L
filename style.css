@@ -3,26 +3,53 @@
     padding: 0;
 }
 
-.cabeçalho {
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.cabecalho {
     background-color: #F5C20A;
     color: #1A1D1D;
     display: flex;
     justify-content: space-around;
+    padding: 24px 0;
+}
+.cabecalho-logo {
+    width: 180px;
+    border-radius: 30px;
 }
 
-.cabeçalho-titulo{
+.cabecalho-titulo{
     padding: 30px 0;
     font-size: 44px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.cabeçalho logo {
-    width: 25%;
-    height: 25%;
-}
-
-.cabeçalho-itens {
-    font-size: 36px;
+.cabecalho-lista-item {
 display: inline-block;
-padding-top: 100px;
+padding: 0 24px;
+margin-top: 40px;
+font-size: 20px;
+font-family: Arial, Helvetica, sans-serif;
+}
+.colegio-logo{
+    width: 70%;
+}
+.colégio{
+    background-color: #0C1E33;
+    color: white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0;
+}
+.galeria{
+    background-color: #191A22;
+    color:white;
+    display: flex;
+    justify-content: center
+}
+.galeria-foto{
+    width: 450px;
+    border-radius: 32%;
+    height: 300px;
 }
